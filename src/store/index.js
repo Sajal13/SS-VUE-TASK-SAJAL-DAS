@@ -1,14 +1,12 @@
 import { createStore } from 'vuex'
+import { adminState } from './Admin'
+import { employeeState } from './Employees'
+
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  
   modules: {
+    admin: adminState,
+    employee: employeeState
   }
 })
