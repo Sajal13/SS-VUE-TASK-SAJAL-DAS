@@ -13,12 +13,10 @@
 <script>
 import Side_NavBar from "@/components/NavBar/Side_NavBar.vue";
 import Top_Bar from './components/NavBar/Top_Bar.vue';
+
+
 export default {
   name: 'App',
-
-  data: () => ({
-    //
-  }),
   components:{
     Side_NavBar,
     Top_Bar
